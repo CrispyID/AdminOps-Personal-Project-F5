@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
-    "test-w": "vitest",
+    "test-w": "vitest"
   },
   "devDependencies": {
     "vitest": "^4.1.9"
