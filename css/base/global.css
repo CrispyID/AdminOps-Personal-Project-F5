@@ -1,4 +1,9 @@
+/* IMPORT STUFFS */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* GENERAL STUFFS */
 
 body {
     font-family: "Inter", sans-serif;
@@ -11,8 +16,21 @@ h1 {
     color: #006C49;
 }
 
+button {
+    height: 50px;
+    width: max-content;
+    color: white;
+    padding: 0px 5px 0px;
+    border-radius: 10px;
+    background-color: #005236;
+}
+
+
+/* LOGIN WEBPAGE STUFFS */
+
 .login_title {
     text-align: center;
+    padding: 15px;
     
 }
 .login_title h1, 
