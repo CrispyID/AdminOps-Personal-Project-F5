@@ -13,7 +13,7 @@
   "license": "ISC",
   "author": "CrispyID",
   "type": "module",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "vitest run",
     "test-w": "vitest"
