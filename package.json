@@ -1,0 +1,20 @@
+{
+  "name": "adminops-personal-project-f5",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/CrispyID/AdminOps-Personal-Project-F5#readme",
+  "bugs": {
+    "url": "https://github.com/CrispyID/AdminOps-Personal-Project-F5/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrispyID/AdminOps-Personal-Project-F5.git"
+  },
+  "license": "ISC",
+  "author": "CrispyID",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
