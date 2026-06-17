@@ -1,0 +1,26 @@
+/* IMPORT STUFFS */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* GENERAL STUFFS */
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #D1FAE5;
+    color: black;
+
+}
+
+h1 {
+    color: #006C49;
+}
+
+button {
+    height: 50px;
+    width: max-content;
+    color: white;
+    padding: 0px 5px 0px;
+    border-radius: 10px;
+    background-color: #005236;
+}

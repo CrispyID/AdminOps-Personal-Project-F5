@@ -1,9 +1,0 @@
-
-/* Base */
-@import './base/reset.css';
-@import './base/global.css';
-
-/* Componentes */
-@import './components/card.css';
-@import './components/form.css';
-@import './components/button.css';
