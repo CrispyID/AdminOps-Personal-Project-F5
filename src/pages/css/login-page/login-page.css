@@ -15,6 +15,14 @@
     line-height: 25px;
     
 }
+.login_input-email h3 {
+    margin-block-end: 10px;
+}
+
+.login_input-password h3 {
+    margin-block-end: 10px;
+}
+
 .login-name {
     padding-block: -10px;
 }
