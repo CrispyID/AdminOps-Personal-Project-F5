@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
     <link rel="stylesheet" href="src/pages/css/styles.css">
+    <link rel="script" href=""
 </head>
 <body class="login_body">
     <container class="login_title">
@@ -14,16 +15,20 @@
     <container class="login_input">
         <div class= "login_input-email">
             <h3>Email address</h3>
-            <input type="text" class="login-name" id="login-name" name="login name">
+            <input type="text" class="login-name" id="loginName" name="login name">
         </div>       
         <div class="login_input-password">
             <h3>Password</h3>
-                <input type="text" class="login-password" id="login-password" name="login password">
+                <input type="text" class="login-password" id="loginPassword" name="login password">
         </div>
         <div class="login_input-btn">
-            <button>Sign in →</button>
+            <button onclick="sendLogIn()">Log in →</button>
+            <p id="errorLogIn" class="error-login">Ha ocurrido un error al iniciar sesión</p>
         </div>
     </container>
+
+    <!-- Link to external JavaScript file -->
+    <script src="./src/pages/js/index.js" defer></script>
     
 </body>
 </html>
