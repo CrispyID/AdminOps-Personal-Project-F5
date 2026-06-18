@@ -1,8 +1,7 @@
-
 /* LOGIN WEBPAGE STUFFS */
 
 .login_title {
-    text-align: center; ;
+    text-align: center;
     
 }
 .login_title h1 {
@@ -15,8 +14,6 @@
     font-weight: 300;
     line-height: 25px;
     
-}
-.login_input-name {
 }
 .login-name {
     padding-block: -10px;
