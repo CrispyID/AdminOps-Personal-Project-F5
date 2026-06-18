@@ -14,3 +14,14 @@
     font-weight: 300;
     
 }
+.login_input-name {
+}
+.login-name {
+    padding-block: -10px;
+}
+.login_input-password { 
+    margin-bottom: 30px;
+}
+.login-password {
+    padding-block: -10px;
+}
