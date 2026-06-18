@@ -3,33 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login page</title>
+    <link rel="stylesheet" href="src/pages/css/styles.css">
+    <link rel="script" href=""
 </head>
-<body>
-    <container>
-        <img>
+<body class="login_body">
+    <container class="login_title">
         <h1>AdminOps</h1>
         <h3>Management Dashboard</h3>
     </container>
-    <container>
-        <div>
+    <container class="login_input">
+        <div class= "login_input-email">
             <h3>Email address</h3>
-            <fieldset>adminops@management.com</fieldset>
+            <input type="text" class="login-name" id="loginName" name="login name">
         </div>       
-        <div>
-            <div>
-                <h3>Password</h3> <p>Forgot password?</p>
-            </div>
-            <fieldset>******</fieldset>
+        <div class="login_input-password">
+            <h3>Password</h3>
+                <input type="text" class="login-password" id="loginPassword" name="login password">
         </div>
-        <div>
-            <v-checkbox label="remember this device for 30 days">
-                
-            </v-checkbox>
-            <button>Sign in →</button>
-            <p>new to the system?</p> <a href="#">Request access</a>
+        <div class="login_input-btn">
+            <button onclick="sendLogIn()">Log in →</button>
+            <p id="errorLogIn" class="error-login">Ha ocurrido un error al iniciar sesión</p>
         </div>
     </container>
+    <!-- Link to external JavaScript file -->
+    <script src="index.js" defer></script>
     
 </body>
 </html>
