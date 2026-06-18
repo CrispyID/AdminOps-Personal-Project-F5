@@ -26,6 +26,14 @@
 .login-name {
     padding-block: -10px;
 }
+.login-password {
+    width: 100%;
+    padding: 0px 0px;
+}
+.login-name{
+    width: 100%;
+    padding: 0px 0px;
+}
 .login_input-password { 
     margin-bottom: 25px;
 }
